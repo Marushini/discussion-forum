@@ -62,7 +62,6 @@ router.post('/login', async (req, res) => {
     res.status(500).json({ error: 'Server error: Unable to log in.' });
   }
 });
-
 /**
  * @route GET /api/users/profile
  * @desc Get user profile (Example of protected route)
